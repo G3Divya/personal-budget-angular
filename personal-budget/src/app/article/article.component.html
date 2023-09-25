@@ -1,4 +1,7 @@
-<article class="h-entry" role="article">
-  <ng-content select="h1" itemprop="headline" class="p-name"></ng-content>
-  <ng-content select="p" itemprop="articleBody" class="e-content"></ng-content>
+<article>
+  <ng-content select="h1"></ng-content>
+  <p>
+    <ng-content select="p"></ng-content>
+  </p>
 </article>
+

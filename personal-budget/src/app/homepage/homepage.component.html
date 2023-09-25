@@ -1,54 +1,46 @@
-<main class="center" id="main">
+<div class="center" id="main">
+  <pb-breadcrumbs></pb-breadcrumbs>
 
-    <div class="page-area">
+  <div class="page-area">
 
-        <pb-article> <!-- Semantic HTML Change: Changed <article> to <pb-article> -->
-            <h1>Stay on track</h1> <!-- Semantic HTML Change: Changed <h1> to <h2> as there should be only one top-level <h1> per page -->
-            <p>
-                Do you know where you are spending your money? If you really stop to track it down,
-                you would get surprised! Proper budget management depends on real data... and this
-                app will help you with that!
-            </p>
-        </pb-article>
+      <pb-article>
+        <h1>Stay on track</h1>
+        <p>
+          Do you know where you are spending your money? If you really stop to track it down,
+          you would get surprised! Proper budget management depends on real data... and this
+          app will help you with that!
+      </p>
+    </pb-article>
 
-        <pb-article> <!-- Semantic HTML Change: Changed <article> to <pb-article> -->
-            <h1>Alerts</h1>
-            <p>
-                What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
-            </p>
-        </pb-article>
+      <pb-article>
+        <h1>Alerts</h1>
+        <p>
+          What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+        </p>
+      </pb-article>
 
-        <pb-article> <!-- Semantic HTML Change: Changed <article> to <pb-article> -->
-            <h1>Results</h1>
-            <p>
-                People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                Also, they to live happier lives... since they expend without guilt or fear... 
-                because they know it is all good and accounted for.
-            </p>
-        </pb-article>
+      <pb-article>
+        <h1>Results</h1>
+        <p>
+          People who stick to a financial plan, budgeting every expense, get out of debt faster!
+          Also, they to live happier lives... since they expend without guilt or fear...
+          because they know it is all good and accounted for.
+        </p>
+      </pb-article>
 
-        <pb-article>
-            <h1>Free</h1>
-            <p>
-                This app is free!!! And you are the only one holding your data!
-            </p>
-        </pb-article>
+      <pb-article>
+        <h1>Free</h1>
+        <p>
+          This app is free!!! And you are the only one holding your data!
+        </p>
+      </pb-article>
 
-        <pb-article> <!-- Semantic HTML Change: Changed <article> to <pb-article> -->
-            <h2>Chart</h2>
-            <p>
-                <!-- A11y Change: Add appropriate alt text for the chart canvas -->
-                <canvas id="Charts" width="300" height="300" aria-label="Budget Chart"></canvas>
-            </p>
-        </pb-article>
-
-        <!-- <section> Semantic HTML Change: Changed <article> to <section>
-            <h2>Chart</h2>
-            <p>
-                <A11y Change: Add appropriate alt text for the chart canvas>
-                <canvas id="D3 Charts" width="300" height="300" aria-label="D3 Budjet Chart"></canvas>
-            </p>
-        </section> -->
-    </div>
-
-</main>
+      <pb-article>
+        <h1>Chart</h1>
+        <p>
+          <figure id="pie"></figure>
+          <canvas id="myChart" width="400" height="400"></canvas>
+        </p>
+      </pb-article>
+  </div>
+</div>
